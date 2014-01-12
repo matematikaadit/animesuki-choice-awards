@@ -35,7 +35,7 @@ var MultipleBBCat = React.createClass({displayName: 'MultipleBBCat',
     },
 
     getInitialState: function() {
-        return { output: '', bbcats: [] }
+        return { output: '', bbcats: [], bblists: [] }
     },
 
     componentDidMount: function() {
@@ -56,10 +56,12 @@ var MultipleBBCat = React.createClass({displayName: 'MultipleBBCat',
         return list.join("\n");
     },
 
-    handleBBCatChange: function(key, val) {
+    handleBBCatChange: function(key, val, bblist) {
         var bbcats = this.state.bbcats;
         bbcats[key] = val;
+        var bblists = this.state.bblists;
+        bblists[key] = bblist;
         var output = this.outputString(bbcats);
-        this.setState({output: output, bbcats: bbcats});
+        this.setState({output: output, bbcats: bbcats, bblists: bblists});
     },
 });

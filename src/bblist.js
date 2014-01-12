@@ -44,7 +44,7 @@ var BBList = React.createClass({
         list[i] = value;
         output = this.convertToBBList(list);
         this.setState({output: output, list: list});
-        this.props.onBBListChange(output);
+        this.props.onBBListChange(output, list);
     },
 
     convertToBBList: function(list) {

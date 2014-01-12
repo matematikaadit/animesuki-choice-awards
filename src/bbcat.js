@@ -25,14 +25,14 @@ var BBCat = React.createClass({
         return { output: output };
     },
 
-    handleBBListChange: function(bblist) {
+    handleBBListChange: function(bblistOutput, bblists) {
         /* Handle BBList Change, this method must be called by the BBList
          * components. Take the given value and process it.
          */
         var header = this.getHeader();
-        var output = header + bblist;
+        var output = header + bblistOutput;
         this.setState({ output: output });
-        this.props.onBBCatChange(this.props.key, output);
+        this.props.onBBCatChange(this.props.key, output, bblists);
     },
 
     getHeader: function(code, title) {
