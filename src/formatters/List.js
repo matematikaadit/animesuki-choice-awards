@@ -56,7 +56,7 @@ var ListFormatter = Class.extend({
 					item_list = [];
 					comments = [];
 					_.each(info.votes, function (vote, i) {
-						if ( ! _.isEmpty(vote.series) &&  ! _.isEmpty(vote['credits-type']) && ! _.isEmpty(vote['song-nr'])) {
+						if ( ! _.isEmpty(vote.series) &&  ! _.isEmpty(vote['credits-type'])) {
 							item_list.push(self.item_wrap(contest.getSeries(vote.series).title() + ' ' + vote['credits-type'] + vote['song-nr'], vote.comment));
 							if ( ! _.isEmpty(vote.comment)) {
 								comments.push(vote.comment);
