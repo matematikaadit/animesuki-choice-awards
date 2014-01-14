@@ -11,7 +11,7 @@ var Votes = React.createClass({displayName: 'Votes',
 			_.each(category.contest.tallyWeights(), function (weight, idx) {
 				var form = self.categoryForm(category, idx);
 				vote_list.push(
-					React.DOM.li( {key:category.vid(idx)}, 
+					React.DOM.div( {key:category.vid(idx)}, 
 						Vote( {idx:idx, category:category, context:form, votes:votes})
 					)
 				);
@@ -20,7 +20,7 @@ var Votes = React.createClass({displayName: 'Votes',
 			category_nodes.push(
 				React.DOM.div( {key:category.code()}, 
 					header,
-					React.DOM.ol(null, 
+					React.DOM.div( {className:"form-horizontal"}, 
 						vote_list
 					)
 				)
@@ -37,24 +37,29 @@ var Votes = React.createClass({displayName: 'Votes',
 
 		var vid = category.vid(id);
 		var votes = this.props.votes;
+		var rank = "#" + (id + 1);
 		var form = null;
+		var inputAddon = React.DOM.span( {className:"input-group-addon"}, rank);
 		if ( ! category.is_preset()) {
 			switch (category.type()) {
 				case 'series':
-					form = ( React.DOM.div( {key:vid}, SeriesSelect( {context:category, voteIdx:id, votes:votes})) );
+					form = ( React.DOM.div( {key:vid}, SeriesSelect( {context:category, voteIdx:id, votes:votes, inputAddon:inputAddon})) );
 					break;
 				case 'limited-series':
-					form = ( React.DOM.div( {key:vid}, SeriesSelect( {context:category, voteIdx:id, votes:votes})) );
+					form = ( React.DOM.div( {key:vid}, SeriesSelect( {context:category, voteIdx:id, votes:votes, inputAddon:inputAddon})) );
 					break;
 				case 'character':
 					form = ( 
 						React.DOM.div( {key:vid, className:"row"}, 
 							React.DOM.span( {className:"col-xs-6"}, 
-								React.DOM.input( {className:"form-control", 
-								       placeholder:"Character...", 
-								       'data-category-code':category.code(), 
-								       'data-idx':id,
-								       onChange:this.updateText}) 
+								React.DOM.span( {className:"input-group"}, 
+									inputAddon,
+									React.DOM.input( {className:"form-control",
+									       placeholder:"Character...",
+									       'data-category-code':category.code(),
+									       'data-idx':id,
+									       onChange:this.updateText})
+						        )
 							),
 							React.DOM.span( {className:"col-xs-6"}, 
 								SeriesSelect( {context:category, voteIdx:id, votes:votes})
@@ -66,7 +71,7 @@ var Votes = React.createClass({displayName: 'Votes',
 					form = ( 
 						React.DOM.div( {key:vid, className:"row"}, 
 							React.DOM.span( {className:"col-xs-7"}, 
-								SeriesSelect( {context:category, voteIdx:id, votes:votes})
+								SeriesSelect( {context:category, voteIdx:id, votes:votes, inputAddon:inputAddon})
 							),
 							React.DOM.span( {className:"col-xs-3"}, 
 								React.DOM.select( {className:"form-control", 'data-category-code':category.code(), 'data-idx':id, onChange:this.updateCreditsType}, 
@@ -75,11 +80,11 @@ var Votes = React.createClass({displayName: 'Votes',
 								)
 							),
 							React.DOM.span( {className:"col-xs-2"}, 
-								React.DOM.input( {className:"form-control", 
-								       type:"text", 
-								       defaultValue:"1", 
-								       'data-category-code':category.code(), 
-								       'data-idx':id, 
+								React.DOM.input( {className:"form-control",
+								       type:"text",
+								       defaultValue:"1",
+								       'data-category-code':category.code(),
+								       'data-idx':id,
 								       onChange:this.updateSongNr})
 							)
 						) 
@@ -88,7 +93,8 @@ var Votes = React.createClass({displayName: 'Votes',
 				case 'freeform':
 				default: 
 					form = ( 
-						React.DOM.div( {key:vid}, 
+						React.DOM.div( {key:vid, className:"input-group"}, 
+							inputAddon,
 							React.DOM.input( {className:"form-control", 
 							       'data-category-code':category.code(), 
 							       'data-idx':id, 

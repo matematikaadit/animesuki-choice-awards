@@ -12,7 +12,7 @@ var Vote = React.createClass({
 		if ( ! this.state.showComments) {
 			return (
 				<div>
-					<div className="row" key="main">
+					<div className="form-group" key="main">
 						<div className="col-xs-9"> {this.props.context} </div>
 						<div className="col-xs-3">
 							<button className="btn btn-default btn-xs" onClick={this.addComment}>Add Comment</button>
@@ -24,13 +24,13 @@ var Vote = React.createClass({
 		else { // don't show comments
 			return (
 				<div>
-					<div className="row" key="main">
+					<div className="form-group" key="main">
 						<div className="col-xs-9"> {this.props.context} </div>
 						<div className="col-xs-3">
 							<button className="btn btn-default btn-xs" onClick={this.removeComment}>Del Comment</button>
 						</div>
 					</div>
-					<div className="row" key="comment">
+					<div className="form-group" key="comment">
 						<div className="col-xs-9">
 							<textarea className="form-control vote-comment" defaultValue="" onChange={this.updateComment} />
 						</div>

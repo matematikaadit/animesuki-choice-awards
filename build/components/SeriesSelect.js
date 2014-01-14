@@ -14,8 +14,10 @@ var SeriesSelect = React.createClass({displayName: 'SeriesSelect',
 		});
 
 		return (
+			React.DOM.div( {className:"input-group"}, this.props.inputAddon,
 			React.DOM.select( {className:"form-control", onChange:this.handleChange}, 
 				option_nodes
+			)
 			)
 		);
 	},
