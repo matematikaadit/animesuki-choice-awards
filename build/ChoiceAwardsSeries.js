@@ -13,7 +13,12 @@ var ChoiceAwardsSeries = Class.extend({
 	},
 
 	title: function () {
-		return this.conf.title;
+		return this.conf.title
+			.replace(/;/g, ' ')
+			.replace(/-/g, ' ')
+			.replace(/,/g, ' ')
+			.replace(/\\"/g, '')
+			.trim();
 	},
 
 	id: function () {
