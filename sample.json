@@ -1,0 +1,90 @@
+{
+	"rules": {
+		"limited-series-genres": 2,
+		"tally-weights": [ 2, 1, 1 ]
+	},
+	"categories": [
+		{
+			"code": "A1",
+			"name": "Best Storyline & Plot",
+			"type": "series",
+			"allowedTypes": ["OVA", "TV", "Movie"],
+			"maxVoteCount": 3,
+			"presetValues": []
+		},
+		{
+			"code": "B1",
+			"name": "Best Action-Adventure",
+			"type": "limited-series",
+			"allowedTypes": ["OVA", "TV", "Movie"],
+			"maxVoteCount": 3,
+			"presetValues": []
+		},
+		{
+			"code": "B2",
+			"name": "Best Fantasy",
+			"type": "limited-series",
+			"allowedTypes": ["OVA", "TV", "Movie"],
+			"maxVoteCount": 3,
+			"presetValues": []
+		},
+		{
+			"code": "B3",
+			"name": "Best Science Fiction",
+			"type": "limited-series",
+			"allowedTypes": ["OVA", "TV", "Movie"],
+			"maxVoteCount": 3,
+			"presetValues": []
+		},
+		{
+			"code": "C2",
+			"name": "Best OVA",
+			"type": "series",
+			"allowedTypes": ["OVA"],
+			"maxVoteCount": 3,
+			"presetValues": []
+		},
+		{
+			"code": "D1",
+			"name": "Best Female Lead",
+			"type": "character",
+			"allowedTypes": ["OVA", "TV", "Movie"],
+			"maxVoteCount": 3,
+			"presetValues": []
+		},
+		{
+			"code": "D6",
+			"name": "Best Credits Theme",
+			"type": "credits-song",
+			"allowedTypes": ["OVA", "TV", "Movie"],
+			"maxVoteCount": 3,
+			"presetValues": []
+		},
+		{
+			"code": "D8",
+			"name": "Best Ongoing Series",
+			"type": "freeform",
+			"allowedTypes": ["Ongoing"],
+			"maxVoteCount": 3,
+			"presetValues": []
+		}
+	],
+	"series": [
+		{
+			"id": "1234",
+			"title": "Foo Series",
+			"type": "TV"
+		},
+		{
+			"id": "1235",
+			"title": "Bar Series",
+			"type": "TV"
+		},
+		{
+			"id": "1236",
+			"title": "Zet Series",
+			"type": "OVA"
+		}
+	]
+
+}
