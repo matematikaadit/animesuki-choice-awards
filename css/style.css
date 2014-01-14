@@ -5,3 +5,8 @@
 .bbcode {
 	font-family: monospace;
 }
+
+body {
+	/* some breathing space when working on last category */
+	padding-bottom: 200px;
+}

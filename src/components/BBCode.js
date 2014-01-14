@@ -1,6 +1,8 @@
 /** @jsx React.DOM */
 var BBCode = React.createClass({
 
+	_last_votelog: null,
+
 	getInitialState: function () {
 		return { formatter: 'list', preview: '' }
 	},
@@ -19,26 +21,52 @@ var BBCode = React.createClass({
 		);
 	},
 
-	update: function (votelog) {
+	formatter: function (type) {
 		var formatter = null;
-		switch (this.state.formatter) {
+		switch (type) {
 			case 'inline': 
 				formatter = new InlineFormatter(this.props.contest);
-				this.setState({ preview: formatter.render(votelog) });
 				break;
 			case 'list':
 			default:
 				formatter = new ListFormatter(this.props.contest);
-				this.setState({ preview: formatter.render(votelog) });
 		}
+
+		return formatter;
+	},
+
+	update: function (votelog) {
+		var self = this;
+		this._last_votelog = votelog;
+		this.setState({
+			preview: self.formatter(this.state.formatter).render(votelog) 
+		});
 	},
 
 	listFormat: function () {
-		this.setState({ formatter: 'list' });
+		var self = this;
+		if (this._last_votelog != null) {
+			this.setState({ 
+				formatter: 'list',
+				preview: self.formatter('list').render(this._last_votelog) 
+			});
+		}
+		else { // no votelog
+			this.setState({ formatter: 'list' });
+		}
 	},
 
 	inlineFormat: function () {
-		this.setState({ formatter: 'inline' });
+		var self = this;
+		if (this._last_votelog != null) {
+			this.setState({ 
+				formatter: 'inline',
+				preview: self.formatter('inline').render(this._last_votelog) 
+			});
+		}
+		else { // no votelog
+			this.setState({ formatter: 'inline' });
+		}
 	},
 
 });
