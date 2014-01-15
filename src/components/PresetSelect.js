@@ -7,7 +7,9 @@ var PresetSelect = React.createClass({
 
 		_.each(presets, function (entry) {
 			option_nodes.push(
-				<option value={entry}>{entry}</option>
+				<option value={entry} key={entry}>
+					{entry}
+				</option>
 			);
 		});
 
@@ -20,6 +22,7 @@ var PresetSelect = React.createClass({
 
 	handleChange: function (e) {
 		var el = e.target;
+		console.log(el.value)
 		this.props.votes.update(this.props.voteIdx, el.value, this.props.context, 'text');
 	},
 

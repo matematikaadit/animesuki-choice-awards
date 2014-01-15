@@ -74,6 +74,7 @@ var ListFormatter = Class.extend({
 				case 'freeform':
 				default:
 					item_list = [];
+					comments = [];
 					_.each(info.votes, function (vote, i) {
 						if ( ! _.isEmpty(vote.text)) {
 							item_list.push(self.item_wrap(vote.text, vote.comment));
