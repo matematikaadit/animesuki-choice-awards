@@ -25,7 +25,12 @@ var SeriesSelect = React.createClass({
 
 	handleChange: function (e) {
 		var el = e.target;
-		this.props.votes.update(this.props.voteIdx, el.value, this.props.context, 'series');
+		if (el.value != '-') {
+			this.props.votes.update(this.props.voteIdx, el.value, this.props.context, 'series');
+		}
+		else { // el.value == '-'
+			this.props.votes.update(this.props.voteIdx, null, this.props.context, 'series');
+		}
 	},
 
 });

@@ -23,7 +23,12 @@ var PresetSelect = React.createClass({displayName: 'PresetSelect',
 	handleChange: function (e) {
 		var el = e.target;
 		console.log(el.value)
-		this.props.votes.update(this.props.voteIdx, el.value, this.props.context, 'text');
+		if (el.value != '-') {
+			this.props.votes.update(this.props.voteIdx, el.value, this.props.context, 'text');
+		}
+		else { // el.value == '-'
+			this.props.votes.update(this.props.voteIdx, null, this.props.context, 'text');
+		}
 	},
 
 });
