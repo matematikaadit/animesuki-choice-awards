@@ -23,7 +23,7 @@ var InlineFormatter = ListFormatter.extend({
 
 	comment_block: function (comments) {
 		if ( ! _.isEmpty(comments)) {
-			return "[indent]\n" + comments.join("\n") + "\n[/indent]\n\n";
+			return "[indent]" + comments.join("\n") + "[/indent]\n";
 		}
 		else { // empty
 			return '';

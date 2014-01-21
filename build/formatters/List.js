@@ -101,12 +101,12 @@ var ListFormatter = Class.extend({
 	},
 
 	list_wrap: function (items) {
-		return "[LIST=1]\n" + items.join('') + "[/LIST]\n\n";
+		return "[LIST]\n" + items.join('') + "[/LIST]\n";
 	},
 
 	item_wrap: function (item, comment) {
 		if ( ! _.isEmpty(comment)) {
-			return "  [*] " + item + " [INDENT][i]" + comment + "[/i][/INDENT]\n";
+			return "  [*] " + item + "\n  [INDENT]" + comment + "[/INDENT]\n";
 		}
 		else { // empty comment
 			return "  [*] " + item + "\n";

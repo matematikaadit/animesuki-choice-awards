@@ -4,7 +4,7 @@ var BBCode = React.createClass({
 	_last_votelog: null,
 
 	getInitialState: function () {
-		return { formatter: 'list', preview: '' }
+		return { formatter: 'inline', preview: '' }
 	},
 
 	render: function () {
