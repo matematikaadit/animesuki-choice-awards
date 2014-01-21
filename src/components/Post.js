@@ -11,11 +11,11 @@ var Post = React.createClass({
 			<div>
 				<p>Fill in the form bellow then copy/paste the BBCode on the right.</p>
 				<div className="row">
-					<div className="col-md-8">
+					<div className="col-md-7">
 						<h2>Your Votes</h2>
 						<Votes context={this.props.context} votes={this.props.votes}/>
 					</div>
-					<div className="col-md-4">
+					<div className="col-md-5">
 						<h2>Preview / Output</h2>
 						{preview}
 					</div>
