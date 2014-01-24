@@ -4,7 +4,7 @@ var BBCode = React.createClass({
 	_last_votelog: null,
 
 	getInitialState: function () {
-		return { formatter: 'inline', preview: '' }
+		return { formatter: 'inline', preview: '', clicked: false }
 	},
 
 	render: function () {
@@ -16,9 +16,25 @@ var BBCode = React.createClass({
 					<button className="btn btn-default btn-xs" onClick={this.inlineFormat}>Inline Style</button>				
 				</div>
 				<hr/>
-				<textarea className="form-control bbcode" rows="30" value={this.state.preview}/> 
+				<textarea
+					onClick={this.handlePreviewClick}
+					onBlur={this.handlePreviewBlur}
+					className="form-control bbcode"
+					rows="30"
+					value={this.state.preview}/>
 			</div>
 		);
+	},
+
+	handlePreviewClick: function(e) {
+		if (!this.state.clicked) {
+			e.target.select();
+			this.setState({clicked: true});
+		}
+	},
+
+	handlePreviewBlur: function(e) {
+		this.setState({clicked: false});
 	},
 
 	formatter: function (type) {
