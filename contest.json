@@ -243,7 +243,8 @@
       "allowedTypes": [
         "TV",
         "OVA",
-        "Movie"
+        "Movie",
+        "Ongoing"
       ],
       "presetValues": [
 
@@ -256,7 +257,8 @@
       "allowedTypes": [
         "TV",
         "OVA",
-        "Movie"
+        "Movie",
+        "Ongoing"
       ],
       "presetValues": [
 
@@ -277,217 +279,207 @@
   "series": [
     {
       "id": "23579",
-      "title": "12-sai.: Kiss, Kirai, Suki",
+      "title": "12-sai.",
       "type": "OVA"
     },
     {
-      "id": "23149",
-      "title": "47 Todoufuken R",
+      "id": "25397",
+      "title": "Absolute Duo",
       "type": "TV"
     },
     {
-      "id": "22831",
-      "title": "Abarenbou Rikishi!! Matsutarou",
+      "id": "22819",
+      "title": "Aikatsu! Movie",
+      "type": "Movie"
+    },
+    {
+      "id": "30123",
+      "title": "Akagami no Shirayuki-hime",
+      "type": "Ongoing"
+    },
+    {
+      "id": "25013",
+      "title": "Akatsuki no Yona",
       "type": "TV"
     },
     {
-      "id": "23551",
-      "title": "Ai Mai Mi: Mousou Catastrophe",
-      "type": "TV"
-    },
-    {
-      "id": "24699",
-      "title": "Ai Tenchi Muyou!",
-      "type": "TV"
-    },
-    {
-      "id": "22199",
-      "title": "Akame ga Kill!",
-      "type": "TV"
-    },
-    {
-      "id": "19429",
-      "title": "Akuma no Riddle",
-      "type": "TV"
-    },
-    {
-      "id": "22147",
-      "title": "Amagi Brilliant Park",
-      "type": "TV"
-    },
-    {
-      "id": "27619",
-      "title": "Ane Log: Moyako Nee-san no Honpen wo Tobidashite Tomaranai Monologue",
+      "id": "29513",
+      "title": "Aki no Kanade",
       "type": "OVA"
     },
     {
-      "id": "27757",
-      "title": "Anisava",
+      "id": "27655",
+      "title": "Aldnoah.Zero",
       "type": "TV"
     },
     {
-      "id": "21995",
-      "title": "Ao Haru Ride",
+      "id": "28981",
+      "title": "Ame-iro Cocoa",
       "type": "TV"
     },
     {
-      "id": "21185",
-      "title": "Baby Steps",
-      "type": "TV"
-    },
-    {
-      "id": "23037",
-      "title": "Bakumatsu Rock",
-      "type": "TV"
-    },
-    {
-      "id": "22789",
-      "title": "Barakamon",
-      "type": "TV"
-    },
-    {
-      "id": "20543",
-      "title": "Bayonetta: Bloody Fate",
-      "type": "Movie"
-    },
-    {
-      "id": "10218",
-      "title": "Berserk Movies",
-      "type": "Movie"
-    },
-    {
-      "id": "20787",
-      "title": "Black Bullet",
-      "type": "TV"
-    },
-    {
-      "id": "22547",
-      "title": "Blade & Soul",
-      "type": "TV"
-    },
-    {
-      "id": "21405",
-      "title": "Bokura wa Minna Kawaisou",
-      "type": "TV"
-    },
-    {
-      "id": "22433",
-      "title": "Break Blade (TV)",
-      "type": "TV"
-    },
-    {
-      "id": "21437",
-      "title": "Buddy Complex",
-      "type": "TV"
-    },
-    {
-      "id": "21677",
-      "title": "Captain Earth",
-      "type": "TV"
-    },
-    {
-      "id": "23991",
-      "title": "Cardfight!! Vanguard Movie: Neon Messiah",
-      "type": "Movie"
-    },
-    {
-      "id": "23721",
-      "title": "Carino Coni",
-      "type": "TV"
-    },
-    {
-      "id": "11457",
-      "title": "Chibi☆Devi!",
-      "type": "TV"
-    },
-    {
-      "id": "15749",
-      "title": "Chiisana Oji-san",
-      "type": "TV"
-    },
-    {
-      "id": "22755",
-      "title": "Chikasugi Idol Akae-chan",
-      "type": "TV"
-    },
-    {
-      "id": "21433",
-      "title": "Chou Zenmairobo: Patrasche",
-      "type": "TV"
-    },
-    {
-      "id": "18671",
-      "title": "Chuunibyou demo Koi ga Shitai! Ren",
-      "type": "TV"
-    },
-    {
-      "id": "20031",
-      "title": "D-Frag!",
-      "type": "TV"
-    },
-    {
-      "id": "23333",
-      "title": "DRAMAtical Murder",
-      "type": "TV"
-    },
-    {
-      "id": "17827",
-      "title": "Daitoshokan no Hitsujikai",
-      "type": "TV"
-    },
-    {
-      "id": "26349",
-      "title": "Danna ga Nani wo Itteiru ka Wakaranai Ken",
-      "type": "TV"
-    },
-    {
-      "id": "19163",
-      "title": "Date A Live II",
-      "type": "TV"
-    },
-    {
-      "id": "24031",
-      "title": "Denki-gai no Honya-san",
-      "type": "TV"
-    },
-    {
-      "id": "21419",
-      "title": "Detective Conan Movie 18: The Sniper from Another Dimension",
-      "type": "Movie"
-    },
-    {
-      "id": "17733",
-      "title": "Dibetagurashi: Ahiru no Seikatsu",
-      "type": "TV"
-    },
-    {
-      "id": "16419",
-      "title": "DokiDoki! Precure",
-      "type": "TV"
-    },
-    {
-      "id": "17357",
-      "title": "DokiDoki! Precure Movie: Mana Kekkon!!? Mirai ni Tsunagu Kibou no Dress",
-      "type": "Movie"
-    },
-    {
-      "id": "21743",
-      "title": "Donten ni Warau",
-      "type": "TV"
-    },
-    {
-      "id": "21999",
-      "title": "Duel Masters Victory V3",
-      "type": "TV"
-    },
-    {
-      "id": "24985",
-      "title": "Elite Jack!!",
+      "id": "24531",
+      "title": "Ane Log: Moyako Neesan no Tomaranai Monologue",
       "type": "OVA"
     },
     {
-      "id": "21167",
-      "title": "Escha & Logy no Atelier: Tasogare no Sora no Renkinjutsushi",
+      "id": "31519",
+      "title": "Anitore! EX",
+      "type": "TV"
+    },
+    {
+      "id": "24833",
+      "title": "Ansatsu Kyoushitsu (TV)",
+      "type": "TV"
+    },
+    {
+      "id": "30205",
+      "title": "Aoharu x Kikanjuu",
+      "type": "TV"
+    },
+    {
+      "id": "30382",
+      "title": "Aquarion Logos",
+      "type": "TV"
+    },
+    {
+      "id": "28249",
+      "title": "Arslan Senki (TV)",
+      "type": "TV"
+    },
+    {
+      "id": "31387",
+      "title": "Aru Hi Inu no Kuni kara Tegami ga Kite",
+      "type": "OVA"
+    },
+    {
+      "id": "27663",
+      "title": "Baby Steps 2nd Season",
+      "type": "TV"
+    },
+    {
+      "id": "27727",
+      "title": "Binan Koukou Chikyuu Bouei-bu LOVE!",
+      "type": "TV"
+    },
+    {
+      "id": "27815",
+      "title": "Cardfight!! Vanguard G",
+      "type": "TV"
+    },
+    {
+      "id": "30091",
+      "title": "Chaos Dragon: Sekiryuu Seneki",
+      "type": "TV"
+    },
+    {
+      "id": "28999",
+      "title": "Charlotte",
+      "type": "TV"
+    },
+    {
+      "id": "23511",
+      "title": "Choubakuretsu Ijigen Menko Battle: Gigant Shooter Tsukasa",
+      "type": "TV"
+    },
+    {
+      "id": "30383",
+      "title": "Classroom☆Crisis",
+      "type": "TV"
+    },
+    {
+      "id": "31147",
+      "title": "Concrete Revolutio: Choujin Gensou",
+      "type": "Ongoing"
+    },
+    {
+      "id": "25731",
+      "title": "Cross Ange: Tenshi to Ryuu no Rondo",
+      "type": "TV"
+    },
+    {
+      "id": "31050",
+      "title": "Cyborg 009 vs. Devilman",
+      "type": "OVA"
+    },
+    {
+      "id": "17703",
+      "title": "Danchi Tomoo",
+      "type": "TV"
+    },
+    {
+      "id": "30127",
+      "title": "Danchigai",
+      "type": "TV"
+    },
+    {
+      "id": "29067",
+      "title": "Danna ga Nani wo Itteiru ka Wakaranai Ken 2 Sure-me",
+      "type": "TV"
+    },
+    {
+      "id": "28223",
+      "title": "Death Parade",
+      "type": "TV"
+    },
+    {
+      "id": "29589",
+      "title": "Denpa Kyoushi (TV)",
+      "type": "TV"
+    },
+    {
+      "id": "29974",
+      "title": "Diabolik Lovers More,Blood",
+      "type": "TV"
+    },
+    {
+      "id": "18689",
+      "title": "Diamond no Ace",
+      "type": "TV"
+    },
+    {
+      "id": "16385",
+      "title": "Dog Days''",
+      "type": "TV"
+    },
+    {
+      "id": "22777",
+      "title": "Dragon Ball Kai (2014)",
+      "type": "TV"
+    },
+    {
+      "id": "25389",
+      "title": "Dragon Ball Z Movie 15: Fukkatsu no F",
+      "type": "Movie"
+    },
+    {
+      "id": "22733",
+      "title": "Dragon Collection",
+      "type": "TV"
+    },
+    {
+      "id": "23409",
+      "title": "Duel Masters VS",
+      "type": "TV"
+    },
+    {
+      "id": "28121",
+      "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+      "type": "TV"
+    },
+    {
+      "id": "23199",
+      "title": "Durarara!!x2",
+      "type": "Ongoing"
+    },
+    {
+      "id": "29722",
+      "title": "Eikoku Ikke, Nihon wo Taberu",
+      "type": "TV"
+    },
+    {
+      "id": "28221",
+      "title": "Etotama",
       "type": "TV"
     },
     {
@@ -496,163 +488,168 @@
       "type": "OVA"
     },
     {
-      "id": "20509",
-      "title": "Fate/kaleid liner Prisma☆Illya 2wei!",
+      "id": "27525",
+      "title": "Fate/kaleid liner Prisma☆Illya 2wei Herz!",
       "type": "TV"
     },
     {
-      "id": "22955",
-      "title": "Fran♥cesca",
+      "id": "28701",
+      "title": "Fate/stay night: Unlimited Blade Works",
       "type": "TV"
     },
     {
-      "id": "22265",
-      "title": "Free!: Eternal Summer",
-      "type": "TV"
-    },
-    {
-      "id": "23985",
-      "title": "Futari Ecchi (2014)",
+      "id": "9761",
+      "title": "Finder Series",
       "type": "OVA"
     },
     {
-      "id": "22189",
-      "title": "Futsuu no Joshikousei ga [Locodol] Yatte Mita.",
+      "id": "30746",
+      "title": "Fushigi na Somera-chan",
       "type": "TV"
     },
     {
-      "id": "21821",
-      "title": "Fuuun Ishin Dai☆Shogun",
+      "id": "19067",
+      "title": "Future Card Buddyfight",
       "type": "TV"
     },
     {
-      "id": "19871",
-      "title": "Gaist Crusher",
+      "id": "23107",
+      "title": "GO-GO Tamagotchi!",
       "type": "TV"
     },
     {
-      "id": "23289",
-      "title": "Gekkan Shoujo Nozaki-kun",
+      "id": "24765",
+      "title": "Gakkougurashi!",
       "type": "TV"
     },
     {
-      "id": "10882",
-      "title": "Ghost Messenger",
+      "id": "30531",
+      "title": "Gakuen Handsome The Animation",
       "type": "OVA"
     },
     {
-      "id": "22013",
-      "title": "Ghost in the Shell: Nyuumon Arise",
+      "id": "30544",
+      "title": "Gakusen Toshi Asterisk",
       "type": "TV"
     },
     {
-      "id": "19363",
-      "title": "Gin no Saji",
+      "id": "25183",
+      "title": "Gangsta.",
       "type": "TV"
     },
     {
-      "id": "19115",
-      "title": "Giovanni no Shima",
+      "id": "23311",
+      "title": "Garo: Honoo no Kokuin",
+      "type": "TV"
+    },
+    {
+      "id": "21039",
+      "title": "Gatchaman Crowds Insight",
+      "type": "TV"
+    },
+    {
+      "id": "28907",
+      "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+      "type": "Ongoing"
+    },
+    {
+      "id": "27411",
+      "title": "Ghost in the Shell (2015)",
       "type": "Movie"
     },
     {
-      "id": "24855",
-      "title": "Girlfriend (Kari)",
+      "id": "29325",
+      "title": "Ghost in the Shell: Arise - Alternative Architecture",
       "type": "TV"
     },
     {
-      "id": "23079",
-      "title": "Glasslip",
+      "id": "29787",
+      "title": "Gochuumon wa Usagi Desu ka??",
       "type": "TV"
     },
     {
-      "id": "21267",
-      "title": "Go! Go! 575",
+      "id": "29095",
+      "title": "Grisaia no Rakuen",
       "type": "TV"
     },
     {
-      "id": "21273",
-      "title": "Gochuumon wa Usagi Desu ka?",
+      "id": "24625",
+      "title": "Gundam Build Fighters Try",
       "type": "TV"
     },
     {
-      "id": "21431",
-      "title": "Gokukoku no Brynhildr",
+      "id": "23259",
+      "title": "Gundam: G no Reconguista",
       "type": "TV"
     },
     {
-      "id": "17895",
-      "title": "Golden Time",
+      "id": "28791",
+      "title": "Gunslinger Stratos: The Animation",
       "type": "TV"
     },
     {
-      "id": "17729",
-      "title": "Grisaia no Kajitsu",
+      "id": "30721",
+      "title": "Hacka Doll The Animation",
       "type": "TV"
     },
     {
-      "id": "23251",
-      "title": "Gugure! Kokkuri-san",
-      "type": "TV"
-    },
-    {
-      "id": "19319",
-      "title": "Gundam Build Fighters",
-      "type": "TV"
-    },
-    {
-      "id": "20583",
-      "title": "Haikyuu!!",
-      "type": "TV"
-    },
-    {
-      "id": "19647",
-      "title": "Hajime no Ippo: Rising",
-      "type": "TV"
-    },
-    {
-      "id": "20689",
-      "title": "Hamatora",
-      "type": "TV"
-    },
-    {
-      "id": "21681",
-      "title": "Hanayamata",
-      "type": "TV"
-    },
-    {
-      "id": "20903",
-      "title": "Harmonie",
+      "id": "26023",
+      "title": "Haiyore! Nyaruko-san F",
       "type": "OVA"
     },
     {
-      "id": "23153",
-      "title": "Hayate no Gotoku! OVA",
+      "id": "27969",
+      "title": "Hana to Alice: Satsujin Jiken",
+      "type": "Movie"
+    },
+    {
+      "id": "31491",
+      "title": "Hantsu x Trash",
       "type": "OVA"
     },
     {
-      "id": "22835",
-      "title": "Himegoto",
+      "id": "21407",
+      "title": "Happiness Charge Precure!",
       "type": "TV"
     },
     {
-      "id": "18241",
-      "title": "Himitsukessha Taka no Tsume MAX",
+      "id": "29515",
+      "title": "Happy ComeCome",
+      "type": "OVA"
+    },
+    {
+      "id": "23269",
+      "title": "Hello!! Kiniro Mosaic",
       "type": "TV"
     },
     {
-      "id": "20853",
-      "title": "Hitsugi no Chaika",
+      "id": "22099",
+      "title": "Hero Bank",
       "type": "TV"
     },
     {
-      "id": "23787",
-      "title": "Hi☆sCoool! SeHa Girls",
+      "id": "30512",
+      "title": "Hero Company",
+      "type": "OVA"
+    },
+    {
+      "id": "27989",
+      "title": "Hibike! Euphonium",
       "type": "TV"
     },
     {
-      "id": "20431",
-      "title": "Hoozuki no Reitetsu",
+      "id": "28883",
+      "title": "Hidan no Aria AA",
+      "type": "TV"
+    },
+    {
+      "id": "24703",
+      "title": "High School DxD BorN",
+      "type": "TV"
+    },
+    {
+      "id": "28825",
+      "title": "Himouto! Umaru-chan",
       "type": "TV"
     },
     {
@@ -661,74 +658,69 @@
       "type": "OVA"
     },
     {
-      "id": "11061",
-      "title": "Hunter x Hunter (2011)",
+      "id": "17919",
+      "title": "Houkago no Pleiades (TV)",
       "type": "TV"
     },
     {
-      "id": "19951",
-      "title": "Hunter x Hunter: The Last Mission",
+      "id": "11135",
+      "title": "Hybrid Child",
+      "type": "OVA"
+    },
+    {
+      "id": "24781",
+      "title": "Imawa no Kuni no Alice",
+      "type": "OVA"
+    },
+    {
+      "id": "25429",
+      "title": "Isuca",
+      "type": "TV"
+    },
+    {
+      "id": "29785",
+      "title": "Jitsu wa Watashi wa",
+      "type": "TV"
+    },
+    {
+      "id": "26055",
+      "title": "JoJo no Kimyou na Bouken: Stardust Crusaders 2nd Season",
+      "type": "TV"
+    },
+    {
+      "id": "28387",
+      "title": "Joukamachi no Dandelion",
+      "type": "TV"
+    },
+    {
+      "id": "25649",
+      "title": "Junjou Romantica 3",
+      "type": "TV"
+    },
+    {
+      "id": "26441",
+      "title": "Junketsu no Maria",
+      "type": "TV"
+    },
+    {
+      "id": "24873",
+      "title": "Juuou Mujin no Fafnir",
+      "type": "TV"
+    },
+    {
+      "id": "16904",
+      "title": "K: Missing Kings",
       "type": "Movie"
     },
     {
-      "id": "26183",
-      "title": "Ikkitousen: Extravaganza Epoch",
-      "type": "OVA"
-    },
-    {
-      "id": "20457",
-      "title": "Inari, Konkon, Koi Iroha.",
+      "id": "27991",
+      "title": "K: Return of Kings",
       "type": "TV"
     },
     {
-      "id": "18097",
-      "title": "Inazuma Eleven Go: Galaxy",
+      "id": "30524",
+      "title": "Kagewani",
       "type": "TV"
-    },
-    {
-      "id": "22507",
-      "title": "Initial D Final Stage",
-      "type": "TV"
-    },
-    {
-      "id": "25159",
-      "title": "Inou-Battle wa Nichijou-kei no Naka de",
-      "type": "TV"
-    },
-    {
-      "id": "22123",
-      "title": "Inugami-san to Nekoyama-san",
-      "type": "TV"
-    },
-    {
-      "id": "24501",
-      "title": "Inui-san!",
-      "type": "OVA"
-    },
-    {
-      "id": "21327",
-      "title": "Isshuukan Friends.",
-      "type": "TV"
-    },
-    {
-      "id": "17497",
-      "title": "Jewelpet Happiness",
-      "type": "TV"
-    },
-    {
-      "id": "23121",
-      "title": "Jinsei",
-      "type": "TV"
-    },
-    {
-      "id": "22295",
-      "title": "Juuza Engi: Engetsu Sangokuden - Gaiden Youzhou Genya",
-      "type": "OVA"
-    },
-    {
-      "id": "16664",
-      "title": "Kaguya-hime no Monogatari",
-      "type": "Movie"
     },
     {
       "id": "24909",
@@ -736,269 +728,149 @@
       "type": "TV"
     },
     {
-      "id": "27997",
-      "title": "Kaitou Tenshi Twin Angel: Kyun Kyun☆Tokimeki Paradise!! OVA",
+      "id": "25681",
+      "title": "Kamisama Hajimemashita◎",
+      "type": "TV"
+    },
+    {
+      "id": "21511",
+      "title": "Kantai Collection: KanColle",
+      "type": "TV"
+    },
+    {
+      "id": "24439",
+      "title": "Kekkai Sensen",
+      "type": "TV"
+    },
+    {
+      "id": "22535",
+      "title": "Kiseijuu: Sei no Kakuritsu",
+      "type": "TV"
+    },
+    {
+      "id": "5042",
+      "title": "Kiss x Sis",
       "type": "OVA"
     },
     {
-      "id": "21563",
-      "title": "Kamigami no Asobi",
+      "id": "24629",
+      "title": "Koufuku Graffiti",
       "type": "TV"
     },
     {
-      "id": "19685",
-      "title": "Kanojo ga Flag wo Oraretara",
+      "id": "30948",
+      "title": "Kowabon",
       "type": "TV"
     },
     {
-      "id": "23213",
-      "title": "Kantoku Fuyuki Todoki",
+      "id": "29517",
+      "title": "Kumi to Tulip",
+      "type": "OVA"
+    },
+    {
+      "id": "29301",
+      "title": "Kurage no Shokudou",
+      "type": "OVA"
+    },
+    {
+      "id": "24415",
+      "title": "Kuroko no Basket 3rd Season",
       "type": "TV"
     },
     {
-      "id": "14807",
-      "title": "Kara no Kyoukai: Mirai Fukuin",
+      "id": "23317",
+      "title": "Kuroshitsuji: Book of Murder",
+      "type": "OVA"
+    },
+    {
+      "id": "22465",
+      "title": "KutsuDaru.",
+      "type": "TV"
+    },
+    {
+      "id": "25283",
+      "title": "Kuusen Madoushi Kouhosei no Kyoukan",
+      "type": "TV"
+    },
+    {
+      "id": "28423",
+      "title": "Kyoukai no Rinne (TV)",
+      "type": "TV"
+    },
+    {
+      "id": "22693",
+      "title": "Lady Jewelpet",
+      "type": "TV"
+    },
+    {
+      "id": "19489",
+      "title": "Little Witch Academia: Mahou Shikake no Parade",
+      "type": "OVA"
+    },
+    {
+      "id": "23321",
+      "title": "Log Horizon 2nd Season",
+      "type": "TV"
+    },
+    {
+      "id": "24997",
+      "title": "Love Live! The School Idol Movie",
       "type": "Movie"
     },
     {
-      "id": "28361",
-      "title": "Kaseifu ga Ita.",
-      "type": "OVA"
-    },
-    {
-      "id": "16662",
-      "title": "Kaze Tachinu",
-      "type": "Movie"
-    },
-    {
-      "id": "21809",
-      "title": "Kenzen Robo Daimidaler",
+      "id": "25517",
+      "title": "Magic Kaito 1412",
       "type": "TV"
     },
     {
-      "id": "21671",
-      "title": "Keroro",
+      "id": "25939",
+      "title": "Mahou Shoujo Lyrical Nanoha ViVid",
       "type": "TV"
     },
     {
-      "id": "18679",
-      "title": "Kill la Kill",
+      "id": "21835",
+      "title": "Majin Bone",
       "type": "TV"
     },
     {
-      "id": "22817",
-      "title": "Kindaichi Shounen no Jikenbo Returns",
+      "id": "30705",
+      "title": "Makura no Danshi",
       "type": "TV"
     },
     {
-      "id": "17389",
-      "title": "Kingdom 2nd Season",
+      "id": "21013",
+      "title": "Marvel Disk Wars: The Avengers",
       "type": "TV"
     },
     {
-      "id": "20971",
-      "title": "Kiniro no Corda: Blue♪Sky",
+      "id": "28817",
+      "title": "Mikagura Gakuen Kumikyoku",
       "type": "TV"
     },
     {
-      "id": "19575",
-      "title": "Kobayashi ga Kawai Sugite Tsurai!!",
-      "type": "OVA"
-    },
-    {
-      "id": "26117",
-      "title": "Kokoroya",
-      "type": "OVA"
-    },
-    {
-      "id": "27519",
-      "title": "Konna Watashitachi ga Nariyuki de Heroine ni Natta Kekka www (TV)",
+      "id": "26085",
+      "title": "Military!",
       "type": "TV"
     },
     {
-      "id": "25143",
-      "title": "Kono Danshi, Sekika ni Nayandemasu.",
-      "type": "OVA"
-    },
-    {
-      "id": "20889",
-      "title": "Kuro no Sumika: Chronus",
-      "type": "OVA"
-    },
-    {
-      "id": "16894",
-      "title": "Kuroko no Basket 2nd Season",
+      "id": "29941",
+      "title": "Million Doll",
       "type": "TV"
     },
     {
-      "id": "13159",
-      "title": "Kuromajo-san ga Tooru!!",
+      "id": "25999",
+      "title": "Minna Atsumare! Falcom Gakuen SC",
       "type": "TV"
     },
     {
-      "id": "22145",
-      "title": "Kuroshitsuji: Book of Circus",
+      "id": "30384",
+      "title": "Miss Monochrome",
       "type": "TV"
     },
     {
-      "id": "18155",
-      "title": "Linetown",
+      "id": "30307",
+      "title": "Monster Musume no Iru Nichijou",
       "type": "TV"
-    },
-    {
-      "id": "17265",
-      "title": "Log Horizon",
-      "type": "TV"
-    },
-    {
-      "id": "19111",
-      "title": "Love Live! School Idol Project 2nd Season",
-      "type": "TV"
-    },
-    {
-      "id": "21105",
-      "title": "Love Stage!!",
-      "type": "TV"
-    },
-    {
-      "id": "23901",
-      "title": "Lovely Movie: Itoshi no Muco Season 2",
-      "type": "TV"
-    },
-    {
-      "id": "6115",
-      "title": "Lupin III vs. Detective Conan",
-      "type": "Movie"
-    },
-    {
-      "id": "23293",
-      "title": "Lupin the IIIrd: Jigen Daisuke no Bohyou",
-      "type": "Movie"
-    },
-    {
-      "id": "23133",
-      "title": "M3: Sono Kuroki Hagane",
-      "type": "TV"
-    },
-    {
-      "id": "24455",
-      "title": "Madan no Ou to Vanadis",
-      "type": "TV"
-    },
-    {
-      "id": "18115",
-      "title": "Magi: The Kingdom of Magic",
-      "type": "TV"
-    },
-    {
-      "id": "19769",
-      "title": "Mahou Sensou",
-      "type": "TV"
-    },
-    {
-      "id": "11977",
-      "title": "Mahou Shoujo Madoka★Magica Movies",
-      "type": "Movie"
-    },
-    {
-      "id": "21421",
-      "title": "Mahou Shoujo Taisen",
-      "type": "TV"
-    },
-    {
-      "id": "20785",
-      "title": "Mahouka Koukou no Rettousei",
-      "type": "TV"
-    },
-    {
-      "id": "24417",
-      "title": "Maido! Urayasu Tekkin Kazoku",
-      "type": "TV"
-    },
-    {
-      "id": "23945",
-      "title": "Majimoji Rurumo",
-      "type": "TV"
-    },
-    {
-      "id": "15813",
-      "title": "Majokko Shimai no Yoyo to Nene",
-      "type": "Movie"
-    },
-    {
-      "id": "15565",
-      "title": "Maken-Ki! Two",
-      "type": "TV"
-    },
-    {
-      "id": "21863",
-      "title": "Mangaka-san to Assistant-san to The Animation",
-      "type": "TV"
-    },
-    {
-      "id": "18365",
-      "title": "Mazinger ZIP!",
-      "type": "TV"
-    },
-    {
-      "id": "21447",
-      "title": "Meitantei Rascal",
-      "type": "TV"
-    },
-    {
-      "id": "21603",
-      "title": "Mekakucity Actors",
-      "type": "TV"
-    },
-    {
-      "id": "23229",
-      "title": "Meshimase Lodoss-tou Senki: Sorette Oishii no?",
-      "type": "TV"
-    },
-    {
-      "id": "20541",
-      "title": "Mikakunin de Shinkoukei",
-      "type": "TV"
-    },
-    {
-      "id": "23375",
-      "title": "Minarai Diva",
-      "type": "TV"
-    },
-    {
-      "id": "21427",
-      "title": "Minna Atsumare! Falcom Gakuen",
-      "type": "TV"
-    },
-    {
-      "id": "21649",
-      "title": "Mitsuwano",
-      "type": "OVA"
-    },
-    {
-      "id": "6336",
-      "title": "Mobile Suit Gundam Unicorn",
-      "type": "OVA"
-    },
-    {
-      "id": "24835",
-      "title": "Mobile Suit Gundam-san",
-      "type": "TV"
-    },
-    {
-      "id": "22225",
-      "title": "Momo Kyun Sword",
-      "type": "TV"
-    },
-    {
-      "id": "21855",
-      "title": "Monogatari Series",
-      "type": "TV"
-    },
-    {
-      "id": "14817",
-      "title": "Mouretsu Pirates: Abyss of Hyperspace",
-      "type": "Movie"
     },
     {
       "id": "23423",
@@ -1006,23 +878,18 @@
       "type": "OVA"
     },
     {
-      "id": "21939",
-      "title": "Mushishi Zoku Shou",
-      "type": "TV"
-    },
-    {
-      "id": "16067",
-      "title": "Nagi no Asukara",
-      "type": "TV"
-    },
-    {
-      "id": "20539",
-      "title": "Nameko-ke no Ichizoku",
+      "id": "28957",
+      "title": "Mushishi Zoku Shou: Suzu no Shizuku",
       "type": "OVA"
     },
     {
-      "id": "22381",
-      "title": "Nandaka Velonica",
+      "id": "26351",
+      "title": "Nagato Yuki-chan no Shoushitsu",
+      "type": "TV"
+    },
+    {
+      "id": "23755",
+      "title": "Nanatsu no Taizai",
       "type": "TV"
     },
     {
@@ -1031,373 +898,293 @@
       "type": "TV"
     },
     {
-      "id": "20651",
-      "title": "Natsume Yuujinchou: Itsuka Yuki no Hi ni",
+      "id": "29715",
+      "title": "Nar Doma",
+      "type": "TV"
+    },
+    {
+      "id": "21755",
+      "title": "New Prince of Tennis OVA vs. Genius10",
       "type": "OVA"
     },
     {
-      "id": "25253",
-      "title": "Nekketsu Jinmen Inu: Life Is Movie",
+      "id": "27787",
+      "title": "Nisekoi:",
+      "type": "TV"
+    },
+    {
+      "id": "23623",
+      "title": "Non Non Biyori Repeat",
+      "type": "TV"
+    },
+    {
+      "id": "30503",
+      "title": "Noragami Aragoto",
+      "type": "TV"
+    },
+    {
+      "id": "24175",
+      "title": "Nozo x Kimi",
       "type": "OVA"
     },
     {
-      "id": "18897",
-      "title": "Nisekoi",
+      "id": "28819",
+      "title": "Okusama ga Seitokaichou!",
       "type": "TV"
     },
     {
-      "id": "19815",
-      "title": "No Game No Life",
+      "id": "30276",
+      "title": "One Punch Man",
       "type": "TV"
     },
     {
-      "id": "24135",
-      "title": "Nobunaga Concerto",
-      "type": "TV"
-    },
-    {
-      "id": "21177",
-      "title": "Nobunaga the Fool",
-      "type": "TV"
-    },
-    {
-      "id": "28547",
-      "title": "Nobunaga-kun",
+      "id": "29511",
+      "title": "Ongaku Shoujo",
       "type": "OVA"
     },
     {
-      "id": "19855",
-      "title": "Nobunagun",
+      "id": "31143",
+      "title": "Onsen Yousei Hakone-chan",
       "type": "TV"
     },
     {
-      "id": "20507",
-      "title": "Noragami",
+      "id": "28297",
+      "title": "Ore Monogatari!!",
       "type": "TV"
     },
     {
-      "id": "18095",
-      "title": "Nourin",
+      "id": "22735",
+      "title": "Oreca Battle",
       "type": "TV"
     },
     {
-      "id": "22849",
-      "title": "Nyamen",
+      "id": "29803",
+      "title": "Overlord",
       "type": "TV"
     },
     {
-      "id": "20931",
-      "title": "Onee-chan ga Kita",
+      "id": "26243",
+      "title": "Owari no Seraph",
       "type": "TV"
     },
     {
-      "id": "22541",
-      "title": "Oniku Daisuki! Zeushi-kun",
+      "id": "31181",
+      "title": "Owarimonogatari",
       "type": "TV"
     },
     {
-      "id": "23673",
-      "title": "Ookami Shoujo to Kuro Ouji",
+      "id": "28595",
+      "title": "Pac-World",
       "type": "TV"
     },
     {
-      "id": "20907",
-      "title": "Ookii 1 Nensei to Chiisana 2 Nensei",
-      "type": "OVA"
-    },
-    {
-      "id": "24705",
-      "title": "Ore, Twintails ni Narimasu.",
+      "id": "28247",
+      "title": "Pankis! 2-jigen",
       "type": "TV"
     },
     {
-      "id": "24211",
-      "title": "Orenchi no Furo Jijou",
+      "id": "30386",
+      "title": "Pikaia!",
       "type": "TV"
     },
     {
-      "id": "19755",
-      "title": "Oshiri Kajiri Mushi 2",
+      "id": "27775",
+      "title": "Plastic Memories",
       "type": "TV"
     },
     {
-      "id": "26133",
-      "title": "Paper Cranes Story: Kenta to Maiko",
-      "type": "OVA"
-    },
-    {
-      "id": "20961",
-      "title": "Parol no Mirai Shima",
-      "type": "OVA"
-    },
-    {
-      "id": "24075",
-      "title": "Persona 4 The Golden Animation",
+      "id": "19291",
+      "title": "Pokemon XY",
       "type": "TV"
     },
     {
-      "id": "15651",
-      "title": "Phi Brain: Kami no Puzzle - Shukuteki! R tsel-hen",
-      "type": "TV"
-    },
-    {
-      "id": "21981",
-      "title": "Pic-lele",
-      "type": "TV"
-    },
-    {
-      "id": "22135",
-      "title": "Ping Pong The Animation",
-      "type": "TV"
-    },
-    {
-      "id": "27459",
-      "title": "Porong Porong Pororo 5",
-      "type": "TV"
-    },
-    {
-      "id": "21031",
-      "title": "Precure All Stars New Stage 3: Eien no Tomodachi",
+      "id": "21569",
+      "title": "Pokemon XY: Hakai no Mayu to Diancie",
       "type": "Movie"
     },
     {
-      "id": "22215",
-      "title": "Pretty Rhythm",
+      "id": "30240",
+      "title": "Prison School",
       "type": "TV"
     },
     {
-      "id": "23281",
-      "title": "Psycho-Pass 2",
-      "type": "TV"
-    },
-    {
-      "id": "23871",
-      "title": "Puchimas!!: Petit Petit iDOLM@STER - Fuyu→Kotatsu←Haru",
-      "type": "OVA"
-    },
-    {
-      "id": "19315",
-      "title": "Pupa",
-      "type": "TV"
-    },
-    {
-      "id": "21325",
-      "title": "Pupipo!",
-      "type": "TV"
-    },
-    {
-      "id": "23309",
-      "title": "Rail Wars!",
-      "type": "TV"
-    },
-    {
-      "id": "22865",
-      "title": "Rokujouma no Shinryakusha!? (TV)",
-      "type": "TV"
-    },
-    {
-      "id": "21771",
-      "title": "Romantica Clock",
-      "type": "TV"
-    },
-    {
-      "id": "21561",
-      "title": "Ryuugajou Nanana no Maizoukin (TV)",
-      "type": "TV"
-    },
-    {
-      "id": "20709",
-      "title": "Sabagebu!",
-      "type": "TV"
-    },
-    {
-      "id": "17777",
-      "title": "Saikin, Imouto no Yousu ga Chotto Okashiinda ga.",
-      "type": "TV"
-    },
-    {
-      "id": "19825",
-      "title": "Saikyou Ginga Ultimate Zero: Battle Spirits",
-      "type": "TV"
-    },
-    {
-      "id": "12929",
-      "title": "Saint Seiya Omega",
-      "type": "TV"
-    },
-    {
-      "id": "10687",
-      "title": "Saint Seiya: Legend of Sanctuary",
+      "id": "21339",
+      "title": "Psycho-Pass Movie",
       "type": "Movie"
     },
     {
-      "id": "12477",
-      "title": "Sakasama no Patema",
+      "id": "28617",
+      "title": "Punch Line",
+      "type": "TV"
+    },
+    {
+      "id": "28401",
+      "title": "Q Transformers: Kaette Kita Convoy no Nazo",
+      "type": "TV"
+    },
+    {
+      "id": "13391",
+      "title": "Rakuen Tsuihou: Expelled from Paradise",
       "type": "Movie"
     },
     {
-      "id": "16123",
-      "title": "Saki: Zenkoku-hen",
+      "id": "28619",
+      "title": "Ranpo Kitan: Game of Laplace",
       "type": "TV"
     },
     {
-      "id": "25915",
-      "title": "Sakura Capusule",
+      "id": "25859",
+      "title": "Re-Kan!",
+      "type": "TV"
+    },
+    {
+      "id": "28497",
+      "title": "Rokka no Yuusha",
+      "type": "TV"
+    },
+    {
+      "id": "25867",
+      "title": "Rolling☆Girls",
+      "type": "TV"
+    },
+    {
+      "id": "23277",
+      "title": "Saenai Heroine no Sodatekata",
+      "type": "TV"
+    },
+    {
+      "id": "16381",
+      "title": "Santa Company",
       "type": "OVA"
     },
     {
-      "id": "20047",
-      "title": "Sakura Trick",
+      "id": "22359",
+      "title": "Sanzoku no Musume Ronja",
       "type": "TV"
     },
     {
-      "id": "19365",
-      "title": "Samurai Flamenco",
+      "id": "22663",
+      "title": "Seiken Tsukai no World Break",
       "type": "TV"
     },
     {
-      "id": "19171",
-      "title": "Sanjougattai Transformers Go!",
+      "id": "28283",
+      "title": "Sengoku Musou",
+      "type": "TV"
+    },
+    {
+      "id": "21573",
+      "title": "Senki Zesshou Symphogear GX: Believe in Justice and Hold a Determination to Fist.",
+      "type": "TV"
+    },
+    {
+      "id": "27967",
+      "title": "Senran Kagura: Estival Versus - Shoujo-tachi no Sentaku",
       "type": "OVA"
     },
     {
-      "id": "21033",
-      "title": "Seikoku no Dragonar",
+      "id": "23273",
+      "title": "Shigatsu wa Kimi no Uso",
       "type": "TV"
     },
     {
-      "id": "22877",
-      "title": "Seirei Tsukai no Blade Dance",
+      "id": "29786",
+      "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "type": "TV"
     },
     {
-      "id": "20847",
-      "title": "Seitokai Yakuindomo*",
-      "type": "TV"
-    },
-    {
-      "id": "20973",
-      "title": "Sekai Seifuku: Bouryaku no Zvezda",
-      "type": "TV"
-    },
-    {
-      "id": "20371",
-      "title": "Sekaiichi Hatsukoi Movie: Yokozawa Takafumi no Baai",
-      "type": "Movie"
-    },
-    {
-      "id": "22273",
-      "title": "Selector WIXOSS",
-      "type": "TV"
-    },
-    {
-      "id": "23201",
-      "title": "Sengoku Basara: Judge End",
-      "type": "TV"
-    },
-    {
-      "id": "11813",
-      "title": "Shijou Saikyou no Deshi Kenichi OVA",
+      "id": "25781",
+      "title": "Shingeki no Kyojin: Kuinaki Sentaku",
       "type": "OVA"
     },
     {
-      "id": "23433",
-      "title": "Shin Strange+",
+      "id": "23233",
+      "title": "Shinmai Maou no Testament",
       "type": "TV"
     },
     {
-      "id": "21843",
-      "title": "Shingeki no Bahamut: Genesis",
+      "id": "25835",
+      "title": "Shirobako",
       "type": "TV"
     },
     {
-      "id": "13267",
-      "title": "Shinryaku!! Ika Musume",
+      "id": "28171",
+      "title": "Shokugeki no Souma",
+      "type": "TV"
+    },
+    {
+      "id": "27741",
+      "title": "Shounen Hollywood: Holly Stage for 50",
+      "type": "TV"
+    },
+    {
+      "id": "27441",
+      "title": "Show By Rock!!",
+      "type": "TV"
+    },
+    {
+      "id": "24893",
+      "title": "Sidonia no Kishi: Daikyuu Wakusei Seneki",
+      "type": "TV"
+    },
+    {
+      "id": "29163",
+      "title": "Sore ga Seiyuu!",
+      "type": "TV"
+    },
+    {
+      "id": "30549",
+      "title": "Soukyuu no Fafner: Dead Aggressor - Exodus",
+      "type": "TV"
+    },
+    {
+      "id": "23725",
+      "title": "Strike Witches: Operation Victory Arrow",
       "type": "OVA"
     },
     {
-      "id": "23325",
-      "title": "Shirogane no Ishi: Argevollen",
+      "id": "30321",
+      "title": "Strike the Blood: Valkyria no Oukoku-hen",
+      "type": "OVA"
+    },
+    {
+      "id": "28621",
+      "title": "Subete ga F ni Naru: The Perfect Insider",
       "type": "TV"
     },
     {
-      "id": "23151",
-      "title": "Shounen Hollywood: Holly Stage for 49",
+      "id": "23319",
+      "title": "Suisei no Gargantia: Meguru Kouro, Haruka",
+      "type": "OVA"
+    },
+    {
+      "id": "30826",
+      "title": "Suzakinishi the Animation",
       "type": "TV"
     },
     {
-      "id": "19775",
-      "title": "Sidonia no Kishi",
+      "id": "29758",
+      "title": "Taboo-Tattoo",
       "type": "TV"
     },
     {
-      "id": "23209",
-      "title": "Sora no Method",
+      "id": "30585",
+      "title": "Taifuu no Noruda",
+      "type": "OVA"
+    },
+    {
+      "id": "28861",
+      "title": "Takamiya Nasuno Desu!: Teekyuu Spin-off",
       "type": "TV"
     },
     {
-      "id": "12783",
-      "title": "Sora no Otoshimono Final: Eternal My Master",
-      "type": "Movie"
-    },
-    {
-      "id": "22101",
-      "title": "Soredemo Sekai wa Utsukushii",
+      "id": "27629",
+      "title": "Tantei Kageki Milky Holmes TD",
       "type": "TV"
     },
     {
-      "id": "21507",
-      "title": "Soul Eater NOT!",
-      "type": "TV"
-    },
-    {
-      "id": "20057",
-      "title": "Space☆Dandy",
-      "type": "TV"
-    },
-    {
-      "id": "21067",
-      "title": "Strange+",
-      "type": "TV"
-    },
-    {
-      "id": "18277",
-      "title": "Strike the Blood",
-      "type": "TV"
-    },
-    {
-      "id": "21773",
-      "title": "Sugar*Soldier",
-      "type": "TV"
-    },
-    {
-      "id": "24969",
-      "title": "Sumiko (TV)",
-      "type": "TV"
-    },
-    {
-      "id": "20555",
-      "title": "Super Sonico The Animation",
-      "type": "TV"
-    },
-    {
-      "id": "21881",
-      "title": "Sword Art Online II",
-      "type": "TV"
-    },
-    {
-      "id": "19843",
-      "title": "Tamagotchi! Miracle Friends",
-      "type": "TV"
-    },
-    {
-      "id": "21647",
-      "title": "Tamako Love Story",
-      "type": "Movie"
-    },
-    {
-      "id": "17969",
-      "title": "Tanken Driland: 1000-nen no Mahou",
+      "id": "26395",
+      "title": "Teekyuu",
       "type": "TV"
     },
     {
@@ -1406,169 +1193,159 @@
       "type": "TV"
     },
     {
-      "id": "22687",
-      "title": "Terra Formars",
+      "id": "28835",
+      "title": "Tesagure! Bukatsumono Spin-off Purupurun Sharumu to Asobou",
       "type": "TV"
     },
     {
-      "id": "21851",
-      "title": "Tesagure! Bukatsumono Encore",
-      "type": "TV"
-    },
-    {
-      "id": "17437",
-      "title": "The iDOLM@STER Movie: Kagayaki no Mukougawa e!",
+      "id": "16870",
+      "title": "The Last: Naruto the Movie",
       "type": "Movie"
     },
     {
-      "id": "12015",
-      "title": "Tiger & Bunny Movies",
+      "id": "23587",
+      "title": "The iDOLM@STER Cinderella Girls",
+      "type": "TV"
+    },
+    {
+      "id": "28979",
+      "title": "To LOVE-Ru Darkness 2nd",
+      "type": "TV"
+    },
+    {
+      "id": "13851",
+      "title": "To LOVE-Ru Darkness OVA",
+      "type": "OVA"
+    },
+    {
+      "id": "30458",
+      "title": "Tokyo Ghoul OVAs",
+      "type": "OVA"
+    },
+    {
+      "id": "27899",
+      "title": "Tokyo Ghoul √A",
+      "type": "TV"
+    },
+    {
+      "id": "26443",
+      "title": "Triage X",
+      "type": "TV"
+    },
+    {
+      "id": "26453",
+      "title": "Tribe Cool Crew",
+      "type": "TV"
+    },
+    {
+      "id": "23249",
+      "title": "Uchuu Senkan Yamato 2199: Hoshimeguru Hakobune",
       "type": "Movie"
     },
     {
-      "id": "19117",
-      "title": "Toaru Hikuushi e no Koiuta",
+      "id": "27927",
+      "title": "Urawa no Usagi-chan",
       "type": "TV"
     },
     {
-      "id": "21353",
-      "title": "Tokyo ESP",
+      "id": "30751",
+      "title": "Usavich Zero",
       "type": "TV"
     },
     {
-      "id": "22319",
-      "title": "Tokyo Ghoul",
+      "id": "29854",
+      "title": "Ushio to Tora (TV)",
       "type": "TV"
     },
     {
-      "id": "16011",
-      "title": "Tokyo Ravens",
+      "id": "21439",
+      "title": "Uta no☆Prince-sama♪ Maji Love Revolutions",
       "type": "TV"
     },
     {
-      "id": "18139",
-      "title": "Tonari no Seki-kun",
+      "id": "30385",
+      "title": "Valkyrie Drive: Mermaid",
       "type": "TV"
     },
     {
-      "id": "10033",
-      "title": "Toriko",
+      "id": "28929",
+      "title": "Vampire Holmes",
       "type": "TV"
     },
     {
-      "id": "17699",
-      "title": "Toriko Movie: Bishokushin no Special Menu",
-      "type": "Movie"
-    },
-    {
-      "id": "25157",
-      "title": "Trinity Seven",
+      "id": "30251",
+      "title": "Venus Project: Climax",
       "type": "TV"
     },
     {
-      "id": "12431",
-      "title": "Uchuu Kyoudai",
+      "id": "30355",
+      "title": "Wakaba*Girl",
       "type": "TV"
     },
     {
-      "id": "21845",
-      "title": "Ushinawareta Mirai wo Motomete",
+      "id": "30437",
+      "title": "Wakako-zake",
       "type": "TV"
     },
     {
-      "id": "16363",
-      "title": "Vanquished Queens",
+      "id": "13843",
+      "title": "Wild Adapter",
       "type": "OVA"
     },
     {
-      "id": "19023",
-      "title": "Wake Up, Girls!",
+      "id": "29017",
+      "title": "Wooser no Sono Higurashi: Mugen-hen",
       "type": "TV"
     },
     {
-      "id": "21189",
-      "title": "Wake Up, Girls! Shichinin no Idol",
-      "type": "Movie"
-    },
-    {
-      "id": "22503",
-      "title": "Washimo",
+      "id": "25879",
+      "title": "Working!!!",
       "type": "TV"
     },
     {
-      "id": "21085",
-      "title": "Witch Craft Works",
+      "id": "23847",
+      "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku",
       "type": "TV"
     },
     {
-      "id": "20053",
-      "title": "Wizard Barristers: Benmashi Cecil",
+      "id": "31177",
+      "title": "Yakyuubu Aruaru",
       "type": "TV"
     },
     {
-      "id": "20267",
-      "title": "Wooser no Sono Higurashi: Kakusei-hen",
+      "id": "28677",
+      "title": "Yamada-kun to 7-nin no Majo (TV)",
       "type": "TV"
     },
     {
-      "id": "18205",
-      "title": "World Fool News (TV)",
+      "id": "28155",
+      "title": "Yoru no Yatterman",
       "type": "TV"
     },
     {
-      "id": "21435",
-      "title": "Yama no Susume 2nd Season",
+      "id": "30740",
+      "title": "Young Black Jack",
       "type": "TV"
     },
     {
-      "id": "22537",
-      "title": "Yami Shibai 2nd Season",
+      "id": "24277",
+      "title": "Yowamushi Pedal: Grande Road",
       "type": "TV"
     },
     {
-      "id": "7762",
-      "title": "Yondemasu yo, Azazel-san.",
+      "id": "26165",
+      "title": "Yuri Kuma Arashi",
+      "type": "TV"
+    },
+    {
+      "id": "23225",
+      "title": "Yuru Yuri Nachuyachumi!",
       "type": "OVA"
     },
     {
-      "id": "18179",
-      "title": "Yowamushi Pedal",
+      "id": "30279",
+      "title": "Yuru Yuri San☆Hai!",
       "type": "TV"
-    },
-    {
-      "id": "18499",
-      "title": "Yozakura Quartet: Tsuki ni Naku",
-      "type": "OVA"
-    },
-    {
-      "id": "15489",
-      "title": "Yu-Gi-Oh! Zexal Second",
-      "type": "TV"
-    },
-    {
-      "id": "25519",
-      "title": "Yuuki Yuuna wa Yuusha de Aru",
-      "type": "TV"
-    },
-    {
-      "id": "20533",
-      "title": "Z/X: Ignition",
-      "type": "TV"
-    },
-    {
-      "id": "23283",
-      "title": "Zankyou no Terror",
-      "type": "TV"
-    },
-    {
-      "id": "19953",
-      "title": "Zetsumetsu Kigu Shoujo: Amazing Twins",
-      "type": "OVA"
-    },
-    {
-      "id": "28543",
-      "title": "Zukkoke Sannin-gumi no Hi Asobi Boushi Dai Sakusen",
-      "type": "OVA"
     }
   ]
 }
