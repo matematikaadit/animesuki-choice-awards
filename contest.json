@@ -388,6 +388,11 @@
       "type": "TV"
     },
     {
+      "id": "31318",
+      "title": "Comet Lucifer",
+      "type": "TV"
+    },
+    {
       "id": "31147",
       "title": "Concrete Revolutio: Choujin Gensou",
       "type": "Ongoing"
@@ -401,6 +406,11 @@
       "id": "31050",
       "title": "Cyborg 009 vs. Devilman",
       "type": "OVA"
+    },
+    {
+      "id": "29976",
+      "title": "Dance with Devils",
+      "type": "TV"
     },
     {
       "id": "17703",
@@ -430,11 +440,6 @@
     {
       "id": "29974",
       "title": "Diabolik Lovers More,Blood",
-      "type": "TV"
-    },
-    {
-      "id": "18689",
-      "title": "Diamond no Ace",
       "type": "TV"
     },
     {
@@ -530,7 +535,7 @@
     {
       "id": "30544",
       "title": "Gakusen Toshi Asterisk",
-      "type": "TV"
+      "type": "Ongoing"
     },
     {
       "id": "25183",
@@ -753,6 +758,11 @@
       "type": "OVA"
     },
     {
+      "id": "31091",
+      "title": "Komori-san wa Kotowarenai!",
+      "type": "TV"
+    },
+    {
       "id": "24629",
       "title": "Koufuku Graffiti",
       "type": "TV"
@@ -800,6 +810,11 @@
     {
       "id": "22693",
       "title": "Lady Jewelpet",
+      "type": "TV"
+    },
+    {
+      "id": "24011",
+      "title": "Lance N' Masques",
       "type": "TV"
     },
     {
@@ -933,6 +948,11 @@
       "type": "TV"
     },
     {
+      "id": "21557",
+      "title": "Omoide no Marnie",
+      "type": "Movie"
+    },
+    {
       "id": "30276",
       "title": "One Punch Man",
       "type": "TV"
@@ -950,6 +970,11 @@
     {
       "id": "28297",
       "title": "Ore Monogatari!!",
+      "type": "TV"
+    },
+    {
+      "id": "25099",
+      "title": "Ore ga Ojousama Gakkou ni \\\"Shomin Sample\\\" Toshite Gets♥Sareta Ken",
       "type": "TV"
     },
     {
@@ -1023,6 +1048,11 @@
       "type": "TV"
     },
     {
+      "id": "30296",
+      "title": "Rakudai Kishi no Cavalry",
+      "type": "TV"
+    },
+    {
       "id": "13391",
       "title": "Rakuen Tsuihou: Expelled from Paradise",
       "type": "Movie"
@@ -1050,6 +1080,11 @@
     {
       "id": "23277",
       "title": "Saenai Heroine no Sodatekata",
+      "type": "TV"
+    },
+    {
+      "id": "30187",
+      "title": "Sakurako-san no Ashimoto ni wa Shitai ga Umatteiru",
       "type": "TV"
     },
     {
@@ -1098,6 +1133,11 @@
       "type": "OVA"
     },
     {
+      "id": "31374",
+      "title": "Shingeki! Kyojin Chuugakkou",
+      "type": "TV"
+    },
+    {
       "id": "23233",
       "title": "Shinmai Maou no Testament",
       "type": "TV"
@@ -1138,6 +1178,11 @@
       "type": "TV"
     },
     {
+      "id": "30375",
+      "title": "Starmyu",
+      "type": "TV"
+    },
+    {
       "id": "23725",
       "title": "Strike Witches: Operation Victory Arrow",
       "type": "OVA"
@@ -1171,6 +1216,11 @@
       "id": "30585",
       "title": "Taifuu no Noruda",
       "type": "OVA"
+    },
+    {
+      "id": "24133",
+      "title": "Taimadou Gakuen 35 Shiken Shoutai",
+      "type": "TV"
     },
     {
       "id": "28861",
@@ -1255,7 +1305,7 @@
     {
       "id": "29854",
       "title": "Ushio to Tora (TV)",
-      "type": "TV"
+      "type": "Ongoing"
     },
     {
       "id": "21439",
